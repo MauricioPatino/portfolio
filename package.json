@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "@tsparticles/react": "^3.0.0",
     "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "emailjs-com": "^3.2.0",
     "lottie-react": "^2.4.0",
     "lucide-react": "^0.469.0",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.5",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",

@@ -2,20 +2,21 @@ import linkedin from '../assets/linkedin.png';
 import Lottie from 'lottie-react';
 import contact from '../assets/Contact.json';
 import React, { useState } from 'react';
-//import emailjs from 'emailjs-com';
 import axios from 'axios';
-import { publicKey, serviceId, templateId } from '../apiKeys/keys';
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  
+  const serviceId=import.meta.env.VITE_APP_SERVICE_ID;
+  const templateId=import.meta.env.VITE_APP_TEMPLATE_ID;
+  const publicKey=import.meta.env.VITE_APP_PUBLIC_KEY;
 
   const sendEmail = async(e: React.FormEvent) => {
     e.preventDefault();
   
 
-  //Creates new object that contains dynamic template params
   const data = {
     service_id: serviceId,
     template_id: templateId,
@@ -29,9 +30,9 @@ const Contact = () => {
   };
 
   try {
-    const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
-    console.log(res.data);
-    alert('Message sent sucessfully');
+    const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data, {headers:{ 'Content-Type': 'application/json'}});
+    //console.log(res.data);
+    alert('Message sent successfully');
     setName('');
     setEmail('');
     setMessage('');
@@ -65,6 +66,7 @@ const Contact = () => {
             <h1 className="text-gray-900 text-4xl font-bold mb-7">Contact Me</h1>
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+             
               <input
                 type="text"
                 id="name"

@@ -1,11 +1,13 @@
-import TypeScript from '../assets/Html.png';
+import TypeScript from '../assets/typescript.png';
 import CSS from '../assets/CSS.png';
 import Javascript from '../assets/JS.png';
 import ReactLogo from '../assets/React.png';
 import ReduxLogo from '../assets/Redux.png';
 import Tailwind from '../assets/Tailwind Css.png';
 import NextJs from '../assets/NextJs.png';
-
+import HTML from '../assets/Html.png';
+import SQL from '../assets/SQL.png';
+import ReactNative from '../assets/react-native.png';
 const About = () => {
     return (
         <div className="relative" id='about'>
@@ -32,7 +34,7 @@ const About = () => {
                                 <h3 className='text-2xl font-semibold text-red-600'>Skills & Expertise</h3>
                                 <div className='flex items-center justify-center flex-wrap gap-3'>
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
-                                        <img src={TypeScript} alt="" className='w-10' />
+                                        <img src={HTML} alt="" className='w-10' />
                                         <span className='font-semibold'>HTML</span>
                                     </div>
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
@@ -48,6 +50,10 @@ const About = () => {
                                         <span className='font-semibold'>React</span>
                                     </div>
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
+                                        <img src={ReactNative} alt="" className='w-8 rounded-full' />
+                                        <span className='font-semibold'>React Native</span>
+                                    </div>
+                                    <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={ReduxLogo} alt="" className='w-8' />
                                         <span className='font-semibold'>Redux</span>
                                     </div>
@@ -58,6 +64,14 @@ const About = () => {
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={NextJs} alt="" className='w-9' />
                                         <span className='font-semibold'>Next Js</span>
+                                    </div>
+                                    <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
+                                        <img src={TypeScript} alt="" className='w-9' />
+                                        <span className='font-semibold'>TypeScript</span>
+                                    </div>
+                                    <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
+                                        <img src={SQL} alt="" className='w-9' />
+                                        <span className='font-semibold'>SQL</span>
                                     </div>
                                 </div>
                             </div>
