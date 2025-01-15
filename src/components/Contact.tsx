@@ -30,8 +30,8 @@ const Contact = () => {
   };
 
   try {
-    const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data, {headers:{ 'Content-Type': 'application/json'}});
-    //console.log(res.data);
+    const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
+    console.log(res.data);
     alert('Message sent successfully');
     setName('');
     setEmail('');
