@@ -25,7 +25,7 @@ const About = () => {
                             <div>
                                 <h3 className='text-2xl font-semibold text-gray-900'>My Journey</h3>
                                 <p className='mt-4 text-lg text-gray-600'>
-                                    I began to become passionate for creating mobile applications that are scalable and user friendly. I have proficiency in front end development with personal projects such as dating apps, wordle like games and a ecommerce app. My projects demonstrate my
+                                    I began to become passionate for creating mobile applications that are scalable and user friendly. I have proficiency in front end development with personal projects such as dating apps and wordle like games. My projects demonstrate my
                                     ability to tinker with user-friendly frontend designs.
                                 </p>
                                 

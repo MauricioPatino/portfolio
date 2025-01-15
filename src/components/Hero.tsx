@@ -14,7 +14,7 @@ const Hero = () => {
              <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hire me as your Mobile App Developer<br /></h1>
              <p className='md:text-2xl text-xl mb-4'>Mobile App Developer & Designer</p>
              <p className='mb-4'>I'm a passionate mobile developer with expertise in React, React Native, Redux, Supabase and modern mobile technologies. I love to create new fun and exciting mobile apps.</p>
-             <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href="https://drive.google.com/file/d/1cXgCYGFB8UzokuG2lyWIO0cCIeWncXPJ/view?usp=sharing" download target='_blank'>Download Resume</a></button>
+             <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href="https://drive.google.com/file/d/1-l0bFDAr_OHCN6DKLbfTAGo1fYNj_8XE/view?usp=sharing" download target='_blank'>Download Resume</a></button>
           </div>
           <div className='md:w-1/2 relative flex justify-center items-end'>
                <img src={hero} alt="" className='lg:h-[60vh] h-96' />

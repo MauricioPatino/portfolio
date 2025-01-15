@@ -1,1 +1,1 @@
-My portfolio deployed using Vercel. It uses Particles.JS, Lottie and Tailwind to customize the UI. All written in TypeScript.
+My portfolio deployed using Vercel. It uses Particles.JS, Lottie and Tailwind to customize the UI. All written in TypeScript
