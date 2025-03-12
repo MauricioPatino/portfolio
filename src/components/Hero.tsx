@@ -1,4 +1,4 @@
-import hero from '../assets/Maubg.png'
+import hero from '../assets/websitepic_deeplab.png'
 import linkedin from '../assets/linkedin.png'
 import reactLogo from '../assets/React.png'
 import reduxLogo from '../assets/Redux.png'
